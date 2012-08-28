@@ -26,8 +26,7 @@ class Application
 
 	public function doRun()
 	{
-		// @todo Nicer way?
-		$home_path = trim(`echo ~`);
+		$home_path = getenv('HOME');
 		$configuration_path = $home_path.'/.bountin-backup';
 
 
