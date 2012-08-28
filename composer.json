@@ -1,0 +1,17 @@
+{
+    "name": "bountin/backup",
+    "description": "Backup your files to dropbox",
+    "authors": [
+		{
+			"name": "Martin Prebio",
+			"email": "martin.prebio@gmail.com"
+		}
+    ],
+    "require": {
+	    "symfony/console": "*"
+	},
+	"autoload": {
+		"psr-0": { "Bountin\\Backup": "src/" }
+	},
+	"bin": ["bin/backup"]
+}

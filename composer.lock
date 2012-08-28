@@ -1,0 +1,17 @@
+{
+    "hash": "0ae38ff76e98a365cacbd5ff596252c5",
+    "packages": [
+        {
+            "package": "symfony/console",
+            "version": "v2.0.17"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
